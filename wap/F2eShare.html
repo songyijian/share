@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta content="width=device-width, initial-scale=1, user-scalable=0" name="viewport">
+	<meta name="cms_id" content="" />
+	<title>常规js分享</title>
+</head>
+<body>
+	<script src="./src/F2eShare.0.2.0.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+
+	<script type="text/javascript">
+
+		//创建分享对象
+		var f2eShare = new F2eShare({
+							MsgImg:'http://go.163.com/2017/0116/rado/fximg/fx.jpg?1',  //分享图片
+						    title:'十二星座2017超个性态度标签',   				//分享标题
+						    desc:'RADO瑞士雷达表 为你开启探索星河之旅',    //分享描述
+						    fText:'十二星座2017超个性态度标签',
+						    callback:function(){}
+						  });
+
+
+		btn5.onclick=function(){
+			//更新内容
+			f2eShare.upData({
+				MsgImg:'http://go.163.com/2017/0116/rado/fximg/fx.jpg?1',  //分享图片
+				title:'十二星座2017超个性态度标签',   				//分享标题
+				desc:'RADO瑞士雷达表 为你开启探索星河之旅',    //分享描述
+				fText:'十二星座2017超个性态度标签'
+			})
+
+			//自动触发对应平台的分享，不支持主动触发的可以
+			f2eShare.evShare(()=>{ /*如果不支持主动触发，调用该函数，基本都是提示右上角*/ });
+		}
+	</script>
+
+
+</body>
+</html>

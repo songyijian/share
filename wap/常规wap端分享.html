@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta content="width=device-width, initial-scale=1, user-scalable=0" name="viewport">
+	<meta name="cms_id" content="" />
+	<title>常规js分享</title>
+</head>
+<body>
+	<p>
+		微信&易信&163新闻客户端	
+		这里微信分享引用了官方的jweixin-1.0.0.js
+	</p>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./src/wapShare.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		fenxiangfn({
+			'image': "分享图片 （无）",
+		    'link' : "分享连接 （无）" || window.location.href,
+		    'title': "分享题目 （无）",
+		    'desc' : "分享内容 （无）",
+		    'wxPYQ': "朋友圈内容 （无）",	
+		    'callBack': function(){}
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+.share-component:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+.share-component {list-style:none; padding:0;}
+.share-component li {float:left;padding-right: 3px; }
+.share-component li a{display:block;overflow:hidden;text-indent:-999px;font-size:0;}
+.share-component{  display: inline-block;}
+/* 皮肤1 */
+.share-theme1{height:25px;}
+.share-theme1 li a{width:24px;height:24px;background:url(http://img1.cache.netease.com/f2e/health/YJbox/img/share_v2.2.png) no-repeat;_background:url(http://img1.cache.netease.com/f2e/health/YJbox/img/share_v2.2.png) no-repeat;-webkit-transition:background .3s cubic-bezier(0.17,0.67,0.88,1.25),color .2s linear;-moz-transition:background .3s cubic-bezier(0.17,0.67,0.88,1.25),color .2s linear;-o-transition:background .3s cubic-bezier(0.17,0.67,0.88,1.25),color .2s linear;transition:background .3s cubic-bezier(0.17,0.67,0.88,1.25),color .2s linear;}
+.share-theme1 li .share-yixin{background-position:0px 0;}
+.share-theme1 li .share-lofter{background-position:-50px 0;}
+.share-theme1 li .share-weixin{ background-position:-100px 0;}
+.share-theme1 li .share-qzone{background-position:-150px 0;}
+.share-theme1 li .share-sina{background-position:-200px 0;}
+.share-theme1 li .share-youdao{background-position:-300px 0;}
+.share-theme1 li .share-renren{background-position:-250px 0;}
+.share-theme1 li .share-douban{background-position:-450px 0;}
+.share-theme1 li .share-qq{background-position:-350px 0;}	
+.share-theme1 li .share-tqq{background-position:-400px 0;}
+.share-theme1 li .share-tieba{background-position:-500px 0;}
+.share-theme1 li .share-yixin:hover{background-position:0 -25px;}
+.share-theme1 li .share-lofter:hover{background-position:-50px -25px;}
+.share-theme1 li .share-weixin:hover{ background-position:-100px -25px;}
+.share-theme1 li .share-qzone:hover{background-position:-150px -25px;}
+.share-theme1 li .share-sina:hover{background-position:-200px -25px;}
+.share-theme1 li .share-youdao:hover{background-position:-300px -25px;}
+.share-theme1 li .share-renren:hover{background-position:-250px -25px;}
+.share-theme1 li .share-douban:hover{background-position:-450px -25px;}
+.share-theme1 li .share-tqq:hover{background-position:-300px -25px;}
+.share-theme1 li .share-qq:hover{background-position:-350px -25px;}	
+.share-theme1 li .share-tqq:hover{background-position:-400px -25px;}
+.share-theme1 li .share-tieba:hover{background-position:-500px -25px;}
+/* 皮肤2 */
+.share-theme2{height:28px;}
+.share-theme2 li a{width:40px;height:28px;background:url(http://img1.cache.netease.com/f2e/health/YJbox/img/share_v2.1.png) no-repeat;}
+.share-theme2 li .share-yixin{background-position:0 0;}
+.share-theme2 li .share-weixin{background-position:-80px 0;}
+.share-theme2 li .share-sina{background-position:-160px 0;}
+.share-theme2 li .share-lofter{background-position:-40px 0;}
+.share-theme2 li .share-youdao{background-position:-240px 0;}
+.share-theme2 li .share-renren{background-position:-200px 0;}
+.share-theme2 li .share-qzone{background-position:-120px 0;}
+.share-theme2 li .share-douban{background-position:-320px 0;}
+.share-theme2 li .share-tqq{background-position:-360px 0;}
+.share-theme2 li .share-qq{background-position:-280px 0;}	
+.share-theme2 li .share-tieba{background-position:-400px 0;}
+.share-theme2 li .share-yixin:hover{background-position:0 -28px;}
+.share-theme2 li .share-weixin:hover{background-position:-80px -28px;}
+.share-theme2 li .share-sina:hover{background-position:-160px -28px;}
+.share-theme2 li .share-lofter:hover{background-position:-40px -28px;}
+.share-theme2 li .share-youdao:hover{background-position:-240px -28px;}
+.share-theme2 li .share-renren:hover{background-position:-200px -28px;}
+.share-theme2 li .share-qzone:hover{background-position:-120px -28px;}
+.share-theme2 li .share-douban:hover{background-position:-320px -28px;}
+.share-theme2 li .share-tqq:hover{background-position:-360px -28px;}
+.share-theme2 li .share-qq:hover{background-position:-280px -28px;}	
+.share-theme2 li .share-tieba:hover{background-position:-400px -28px;}
+.nt-weixin-barcode-pop{position: absolute;z-index:1000; width:295px;height:160px; border:1px solid #E4E4E4; background: #fff;-webkit-box-shadow: 0 0 8px #cdcdcd;-moz-box-shadow: 0 0 8px #cdcdcd;box-shadow: 0 0 8px #cdcdcd;}
+.nt-weixin-barcode-pop .nt-weixin-pic {padding:15px 0 0 15px;overflow: hidden;float: left;}
+.nt-weixin-barcode-pop .nt-weixin-text {width:138px;font: 12px/30px 宋体;color: #656565;float: right;padding: 30px 0 0 0;}
+.nt-weixin-barcode-pop .nt-weixin-close { color: #bbb;position: absolute;width: 10px;height: 10px;right: 10px;top:10px;font: 16px/10px "Verdana" "Lucida Console";text-decoration: none;}
